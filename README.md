@@ -5,7 +5,7 @@ Why store things in your own cookies, when the data is already in Hubspot?
 Hubspot has magic that auto-detects the user based on a combination of cookies and IP data and can load up pre-filled form values that the user has entered before on one of your sites. You might want access these values for use in Javascript, and that's the goal here. It must be running on your Hubspot-enabled domain.
 
 Params:
-```$.hubspotScrub(callback, portalID, FormID);
+```$.hubspotScrub(callback, portalID, FormID);```
 
 Examples:
 ```
