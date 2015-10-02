@@ -7,6 +7,9 @@ Hubspot has magic that auto-detects the user based on a combination of cookies a
 Params:
 ```$.hubspotScrub(callback, portalID, FormID);```
 
+Returns:
+An object of name:value pairs.
+
 Examples:
 ```
 jQuery(document).ready(function () {
