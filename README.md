@@ -8,7 +8,8 @@ Params:
 ```$.hubspotScrub(callback, portalID, FormID);```
 
 Returns:
-An object of name:value pairs.
+An object of name:value pairs. 
+Empty or unknown values will be excluded.
 
 Examples:
 ```
