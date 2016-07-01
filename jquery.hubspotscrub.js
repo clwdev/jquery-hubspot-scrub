@@ -27,7 +27,7 @@
                     if ($.isFunction(callback)) {
                         callback(vals);
                     }
-                    form.remove();
+                    form.empty();
                 }
             });
         },
